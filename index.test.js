@@ -1,4 +1,4 @@
-const { promiseChainInit } = require("./index");
+const { promiseChainInit } = require("./src/index");
 
 it("cache success p1 on promise chain has fail", async () => {
   const chain = promiseChainInit();
