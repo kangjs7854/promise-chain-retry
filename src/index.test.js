@@ -31,7 +31,6 @@ it("cache success p1 on promise chain has fail", async () => {
     while (needRetry) {
       try {
         const res = await chain.execute();
-        console.log(res);
         if (hasError) {
           needRetry = false;
           p1ResOnSuccess = res[0];
