@@ -1,4 +1,4 @@
-export function promiseChainInit() {
+export default function () {
   let tasks: any[] = [];
   let promiseCache: any[] = [];
 
