@@ -25,6 +25,7 @@ api() //666
 import { promiseChainInit } from 'promise-chain-retry'
 
 const chain = promiseChainInit();
+
 function api() {
   chain.next(async () => {
     return await genId1();
