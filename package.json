@@ -19,8 +19,8 @@
   ],
   "keywords": [
     "promise",
-    "chain"
-    "retry",
+    "chain",
+    "retry"
   ],
   "author": "kangjs",
   "devDependencies": {
