@@ -10,6 +10,19 @@
     "build": "parcel build",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangjs7854/promise-chain-retry.git"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "promise",
+    "chain"
+    "retry",
+  ],
+  "author": "kangjs",
   "devDependencies": {
     "@parcel/packager-ts": "2.6.2",
     "@parcel/transformer-typescript-types": "2.6.2",
