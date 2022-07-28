@@ -22,6 +22,8 @@ api() //666
 # use promise-chain-retry
 
 ```js
+import { promiseChainInit } from 'promise-chain-retry'
+
 const chain = promiseChainInit();
 function api() {
   chain.next(async () => {
